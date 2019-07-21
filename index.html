@@ -7,8 +7,8 @@
 
     <body>
         <header>
-            <img src="./photo.jpg" class="profile-img">
-            <nav>
+            <img src="./images/me-t-logo.jpg" class="profile-img">
+            <nav class="navigation">
                 <ul>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -18,36 +18,58 @@
         </header>
         <main>
             <section id="hero">
-                <div class="section-inner">
-                    <img src="./photo.jpg" class="profile-img">
-                    <h1>Acá va un texto</h1>
+                <div class="hero-section">
+                    <h1 class="hero-title">APRENDÉ PROGRAMACIÓN WEB Y POTENCIÁ IDEAS</h1>
                 </div>
             </section>
-            <section id="about">
+            <section id="bootcamp" class="bootcamp">
                 <div class="section-inner">
-                    <h2>About me</h2>
-                    <p>Acá tmb va algo, ni idea qué.</p>
+                    <div class="bootcamp-introduction">
+                        <h2 class="introduction-title title">Comunidad MET</h2>
+                        <h3 class="introduction-subtitle">¿Quienes somos?</h3>
+                        <p class="introduction-text"> Mujeres que trabajan y estudian en áreas de computación, 
+                            automatización, ciencia de datos y tecnología en general.
+                            Centramos nuestro trabajo en la provincia de Córdoba,
+                            buscamos colaborar con otros grupos, reforzar la comunidad Argentina
+                            y ser parte de las redes regionales y globales con objetivos y visiones similares.
+                        </p>
+                    </div><div class="bootcamp-information">
+                        <div class="information">
+                            <h2 class="information-title title">Bootcamp Web</h2>
+                            <div class=information-description>
+                                <p class="description-text"> Durante el Bootcamp Web <span> vas a aprender 
+                                    a diseñar soluciones web y armar una landing page en pocos pasos.</span></p>
+                                <p class="description-extra-info"> Nos enfocamos en la práctica real, con acompañamiento de mentoras
+                                    y profesionales de la industria. El Bootcamp Web está dirigido a mujeres
+                                    y géneros no binarios para <span>impulsar la diversidad en la comunidad tecnológica
+                                    cordobesa </span> y visibilizar nuestro impacto.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <img src="./images/imagen-bootcamp.jpg" class="bootcamp-img">
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section id="contact">
+            <section id="contact" class="contact">
                 <div class="section-inner">
-                    <h2>Contact me</h2>
-                    <p>Acá va algo</p>
-                    <ul>
-                        <li><a href="https://twitter.com/llama">Links</a></li>
-                        <li><a href="https://www.reddit.com/user/llama">Links</a></li>
-                        <li><a href="https://www.instagram.com/llamasporfavor/">Links</a></li>
-                    </ul>
+                    <h2 class="contact-title title"> Contactate con nosotras</h2>
+                    <p class="contact-text">Querés ser parte de la comunidad MET,
+                       escribinos y ayudanos a que cada vez seamos más. </p>
                     <div class='input-container'>
-                        <label>Nombre: </label><input></input>
+                        <p id="name" class="input-text">Nombre: </p>
+                        <input type="text"  class="input"></input>
                     </div>
                     <div class='input-container'>
-                        <label>Telefono: </label><input></input>
+                        <label class="input-text">Telefono: </label>
+                        <input type="text" class="input"></input>
                     </div>
                     <div class='input-container'>
-                        <label>Dejanos tu mensaje: </label><textarea></textarea>
+                        <label class="input-text">Dejanos tu mensaje: </label>
+                        <textarea></textarea>
                     </div>
-                    <button>Enviar</button>
+                    <button class="button-send">Enviar</button>
                     <p><a href="mailto:tuvieja@gmail.com">Acá va un email</a>.</p>
                 </div>
             </section>
